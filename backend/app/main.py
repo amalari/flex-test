@@ -142,6 +142,7 @@ app = FastAPI(
     description="Authentication and User Management API - Developer Testing Skeleton",
     version="1.0.0",
     lifespan=lifespan,
+    swagger_ui_parameters={"persistAuthorization": True},
 )
 
 # CORS middleware

@@ -18,7 +18,7 @@ security = HTTPBearer(auto_error=False)
 
 # Authentication cache to prevent multiple DB calls for same token
 auth_cache = {}
-CACHE_DURATION = 1800  # 30 minutes (increased from 5 minutes for better performance)
+CACHE_DURATION = 18000  # 30 minutes (increased from 5 minutes for better performance)
 
 
 def clear_auth_cache():
